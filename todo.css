@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    min-width: 250px;
+  }
+  
+  
+  
+  
+  ul {
+      box-sizing: border-box;
+      width: 1150px;
+      border: 5px solid brown;
+    margin-left: 200px;
+    padding: 5px;
+  }
+  
+  
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 15px 8px 20px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    box-sizing: border-box;
+    border: 5px solid grey;
+    
+    
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  
+ 
+  ul li:hover {
+    background: #ddd;
+  }
+  
+  
+  ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+  
+ 
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  
+  
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+ 
+  .header {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    
+    
+    padding: 30px 40px;
+    color: rgb(196, 21, 21);
+    margin: 100px 200px;
+    
+    
+    text-align: center;
+  }
+  
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  input {
+      box-sizing: border-box;
+      width: 400px;
+      background-color: black;
+    margin-left: 450px;
+    border: none;
+    border-radius: 0;
+    
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  
+ 
+  .addBtn {
+    padding: 5px;
+    margin: 10px;
+    width: 80px;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }
+  h2{
+    margin:5px;
+    position: absolute;
+    margin-left: 310px;
+  }
+  h3{
+      text-align: center;
+  }
+
+  
